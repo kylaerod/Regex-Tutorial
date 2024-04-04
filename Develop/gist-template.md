@@ -60,7 +60,7 @@ Code: `[a-f0-9]`
 
 ### Greedy and Lazy Match
 
-Matching a hex value uses greedy matching by default. Greedy matching tries to match the longest possible string that fits the pattern. Since quantifiers ({6} and {3}) specify exact lengths, greediness isn't a major factor. However, it's an important to understand when dealing with repetitive patterns where greediness might lead to unintended matches.
+Matching a hex value uses greedy matching by default. Greedy matching tries to match the longest possible string that fits the pattern. Since quantifiers ({6} and {3}) specify exact lengths, greediness isn't a major factor. However, it's important to understand when dealing with repetitive patterns where greediness might lead to unintended matches.
 
 Code: `[a-f0-9]{3}`
 
