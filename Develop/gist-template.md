@@ -4,7 +4,7 @@ The purpose of this document is to explain the functionality of a matching a hex
 
 ## Summary
 
-Some of the expressions you will see in this document are listed below:  /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+Some of the expressions you will see in this document are listed below:  `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
 We will further explore the details of this specific regular expressions as we talk more about anchors, quantifies, character class, and others that are seen used in this expression. 
 
